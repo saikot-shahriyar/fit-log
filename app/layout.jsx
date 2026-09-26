@@ -1,34 +1,28 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { PlanProvider } from "./context/PlanContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "Fit Log",
   description:
-    "A simple, focused workout companion: build your daily routine, track your exercises, and stay consistent.",
+    "A simple, focused workout companion.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="flex flex-col min-h-screen">
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+    <html lang="en" className="dark">
+      <body className="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col font-sans antialiased">
+        <PlanProvider>
+          <Toaster
+            position="bottom-right"
+            toastOptions={{ style: { background: "#18181b", color: "#fff" } }}
+          />
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </PlanProvider>
       </body>
     </html>
   );
