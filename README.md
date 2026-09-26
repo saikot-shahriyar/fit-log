@@ -30,3 +30,5 @@ A workout tracking application and workout library built for fitness enthusiasts
 https://github.com/saikot-shahriyar/fit-log
 
 ## Live Website
+
+https://fit-log-kappa-dusky.vercel.app/
