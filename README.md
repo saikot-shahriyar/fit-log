@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FITLOG
 
-## Getting Started
+# About The Project
 
-First, run the development server:
+A workout tracking application and workout library built for fitness enthusiasts to explore exercises, plan daily workouts, and track workout progress.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- React
+- Tailwind CSS
+- JavaScript
+- React Hot Toast
+- Lucide Icons
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Workout Library** — Browse exercises covering chest, back, legs, core, and full-body workouts.
 
-## Learn More
+2. **Personalized Daily Plan** — Add exercises to your daily workout routine with real-time calorie and time calculations.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Analytics & Metrics** — Track target muscle groups, estimated calorie burn, workout duration, and exercise difficulty.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Dynamic Filtering & Sorting** — Filter and sort workouts based on duration, calories burned, rating, and other metrics.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## GitHub Repository
 
-## Deploy on Vercel
+https://github.com/saikot-shahriyar/fit-log
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Live Website
