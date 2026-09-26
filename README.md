@@ -23,6 +23,8 @@ A workout tracking application and workout library built for fitness enthusiasts
 
 4. **Dynamic Filtering & Sorting** — Filter and sort workouts based on duration, calories burned, rating, and other metrics.
 
+5. **Responsive Design** - Fully responsive interface that works across desktop, tablet, and mobile devices.
+
 ## GitHub Repository
 
 https://github.com/saikot-shahriyar/fit-log
