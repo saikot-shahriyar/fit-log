@@ -9,7 +9,7 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://api.abcz.workers.dev/api/fitlog")
+    fetch("https://api.api-store.workers.dev/api/fitlog")
       .then((res) => res.json())
       .then((data) => {
         setWorkouts(data);

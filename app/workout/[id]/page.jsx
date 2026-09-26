@@ -13,7 +13,7 @@ export default function WorkoutDetailPage({ params: paramsPromise }) {
   const { addToPlan, addToSaved } = usePlan();
 
   useEffect(() => {
-    fetch(`https://api.abcz.workers.dev/api/fitlog/${id}`)
+    fetch(`https://api.api-store.workers.dev/api/fitlog/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setWorkout(data);
