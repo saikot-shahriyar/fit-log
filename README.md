@@ -1,6 +1,6 @@
-# FITLOG
+# FIT LOG
 
-# About The Project
+## About The Project
 
 A workout tracking application and workout library built for fitness enthusiasts to explore exercises, plan daily workouts, and track workout progress.
 

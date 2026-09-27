@@ -20,6 +20,7 @@ export default function MyPlanPage() {
     (acc, curr) => acc + Number(curr.duration || 0),
     0,
   );
+  
   const totalCalories = rawList.reduce(
     (acc, curr) =>
       acc +

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import WorkoutCard from "./components/WorkoutCard";
-import { ArrowDown, Loader2 } from "lucide-react";
+import { Loader2 } from "lucide-react";
 
 export default function HomePage() {
   const [workouts, setWorkouts] = useState([]);
